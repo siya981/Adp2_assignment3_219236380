@@ -29,7 +29,7 @@ public class SupplierImplementation {
             try {
 
             // open the file
-            FileWriter fw = new FileWriter("supplierOutFile.txt", true);
+            FileWriter fw = new FileWriter("supplierOutFile.txt", false);
             PrintWriter out = new PrintWriter(fw);
 
             String spacing = "%-5s %-20s %-10s %-10s";

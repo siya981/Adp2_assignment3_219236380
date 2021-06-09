@@ -15,7 +15,7 @@ import za.ac.cput.assignment3project.Supplier;
 public class NameSort implements Comparator<Supplier>{
     @Override
     public int compare(Supplier s1, Supplier s2) {
-        return s2.getName().compareToIgnoreCase(s1.getName());
+        return s1.getName().compareToIgnoreCase(s2.getName());
     }
 }
     
